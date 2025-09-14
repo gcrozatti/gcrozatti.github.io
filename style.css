@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden; /* Prevent scrollbars */
+  background-color: #000010; /* Very dark blue/black background */
+}
+
+canvas {
+  display: block; /* Remove default inline spacing */
+  width: 100%;
+  height: 100%;
+}
